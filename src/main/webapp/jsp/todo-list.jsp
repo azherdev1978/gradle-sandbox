@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>To Do application</title>
-    <link rel="stylesheet" href="<c:url value="css/base.css"/>">
+    <link rel="stylesheet" href="<c:url value="/css/base.css"/>">
 </head>
 <body>
 <section id="todoapp">
@@ -13,7 +13,7 @@
         <h1>todos</h1>
         <form action="<c:url value="insert"/>" method="POST">
             <input type="hidden" name="filter" value="${filter}"/>
-            <input id="new-todo" name="name" placeholder="What needs to be done?" autofocus>
+            <input id="new-todo" name="name" placeholder="Harro, what needs to be done?" autofocus>
         </form>
     </header>
     <section id="main">

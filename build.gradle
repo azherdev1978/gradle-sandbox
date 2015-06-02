@@ -8,13 +8,15 @@
  */
 
 // Apply the scala plugin to add support for Scala
-apply plugin: 'java'
+apply plugin: 'scala'
 apply plugin: 'war'
 apply plugin: 'jetty'
 apply plugin: 'idea'
 
 version = 0.1
 sourceCompatibility = 1.7
+
+webAppDirName = 'src/main/webapp'
 
 jettyRun {
     httpPort = 9090
